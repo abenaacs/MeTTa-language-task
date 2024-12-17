@@ -9,7 +9,7 @@ result = metta.run(
   (= (front-append $list $x)
     (cons-atom $x $list)
 )
-!(front-append (1 2 1 2 4 1 3) 7)
+!(front-append 7 (1 2 1 2 4 1 3))
 
 """
 )
