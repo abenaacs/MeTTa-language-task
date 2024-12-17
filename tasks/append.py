@@ -5,7 +5,7 @@ result = metta.run(
     """
 
 
-; The following expression appends an item from any postion 
+; The following expression appends an item
   (= (front-append $list $x)
     (cons-atom $x $list)
 )

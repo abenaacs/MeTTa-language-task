@@ -12,7 +12,7 @@ result = metta.run(
     (let*(
         ($head (car-atom $list))
         ($tail_new (find-max $tail))
-    ) (if (< $head $tail_new) $head $tail_new))
+    ) (if (> $head $tail_new) $head $tail_new))
     )
     
 ))
